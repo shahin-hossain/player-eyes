@@ -18,9 +18,15 @@ utilities Style
     background-color: #151515;
 }
 
-.main-container {
-    padding: 50px 100px 0px 100px
+.content-container {
+    padding-top: 50px;
 }
+
+.main-container {
+    width: 85%;
+
+}
+
 
 /*----------------
 header style start
