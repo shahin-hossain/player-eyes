@@ -29,6 +29,7 @@ function getInputFieldValue(inputFieldId) {
     const inputField = document.getElementById(inputFieldId);
     const inputFieldString = inputField.value;
     const inputFieldValue = parseFloat(inputFieldString);
+    inputField.value = '';
     return inputFieldValue;
 
 }
